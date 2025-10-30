@@ -68,17 +68,10 @@ def AfficherMenu():
 def main():
     """
     Point d'entrée principal du gestionnaire de tâches.
-    Cette fonction gère la boucle principale du programme qui permet à l'utilisateur
-    d'interagir avec le gestionnaire de tâches via un menu. Les opérations disponibles sont:
-    - Ajouter une nouvelle tâche
-    - Lister les tâches existantes
-    - Marquer une tâche comme terminée
-    - Supprimer une tâche
-    - Quitter l'application
-    La fonction gère également les erreurs d'entrée utilisateur et enregistre
-    les événements importants dans les logs.
-    Returns:
-        None
+    Gère la boucle principale permettant à l'utilisateur d'interagir avec
+    le gestionnaire via un menu (ajout, liste, completion, suppression).
+    Gère les erreurs d'entrée et les logs.
+
     Raises:
         ValueError: Si l'utilisateur entre un ID de tâche non numérique
     """
