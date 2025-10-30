@@ -13,7 +13,12 @@ Cette application permet de créer, gérer et suivre une liste de tâches direct
 git clone https://github.com/GNoChance/BonnePratiqueDeDev
 ```
 
-2. Assurez-vous d'avoir Python 3 installé.
+2. Assurez-vous d'avoir Python 3 installé :
+    - Windows : Téléchargez Python depuis [python.org](https://www.python.org/downloads/)
+    - Linux : `sudo apt-get install python3`
+    - macOS : `brew install python3`
+
+
 
 ## Utilisation
 
@@ -30,8 +35,9 @@ python todo.py
 - `4` : Supprimer une tâche
 - `2` : Quitter l'application
 
-## Exemples
+## Exemples d'utilisation
 
+### 1. Ajouter une tâche
 ```
 === Gestionnaire de Liste TODO ===
 1. Ajouter une tâche
@@ -39,11 +45,12 @@ python todo.py
 3. Marquer une tâche comme terminée
 4. Supprimer une tâche
 5. Quitter
+
 Choisissez une option (1-5): 1
-```
-```
 Entrez la description de la tâche: Aller manger
 ```
+
+### 2. Afficher les tâches
 ```
 === Gestionnaire de Liste TODO ===
 1. Ajouter une tâche
@@ -51,9 +58,8 @@ Entrez la description de la tâche: Aller manger
 3. Marquer une tâche comme terminée
 4. Supprimer une tâche
 5. Quitter
+
 Choisissez une option (1-5): 2
-```
-```
 Tâches actuelles:
 [ ] 1. Aller manger
 ```
